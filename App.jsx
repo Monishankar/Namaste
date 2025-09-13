@@ -13,7 +13,7 @@ import VerificationCode from './android/app/src/components/screens/VerificationC
 const Stack = createNativeStackNavigator();
 const App = () => {
   return (
-    <NativeBaseProvider>
+    <NativeBaseProvider> 
       <NavigationContainer>
         <Stack.Navigator screenOptions={{ headerShown: false }}>
           <Stack.Screen name="StartScreen" component={StartScreen} />
